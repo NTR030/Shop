@@ -1,0 +1,124 @@
+[debug] [2024-06-20T09:49:05.750Z] ----------------------------------------------------------------------
+[debug] [2024-06-20T09:49:05.752Z] Command:       D:\nodejs\node.exe C:\Users\22739\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2024-06-20T09:49:05.753Z] CLI Version:   13.11.2
+[debug] [2024-06-20T09:49:05.753Z] Platform:      win32
+[debug] [2024-06-20T09:49:05.753Z] Node Version:  v20.13.1
+[debug] [2024-06-20T09:49:05.753Z] Time:          Thu Jun 20 2024 17:49:05 GMT+0800 (中国标准时间)
+[debug] [2024-06-20T09:49:05.753Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-06-20T09:49:05.755Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=398582399&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2024-06-20T09:49:27.602Z] *** [apiv2] error from fetch(https://firebase-public.firebaseio.com/cli.json, {"headers":{},"method":"GET"}): FetchError: request to https://firebase-public.firebaseio.com/cli.json failed, reason: 
+[warn] !  Unable to fetch the CLI MOTD and remote config. This is not a fatal error, but may indicate an issue with your network connection. 
+[debug] [2024-06-20T09:49:27.603Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
+[debug] [2024-06-20T09:49:35.932Z] >>> [apiv2][query] POST https://accounts.google.com/o/oauth2/token [none]
+[debug] [2024-06-20T09:49:35.932Z] >>> [apiv2][body] POST https://accounts.google.com/o/oauth2/token [omitted]
+[debug] [2024-06-20T09:49:56.972Z] *** [apiv2] error from fetch(https://accounts.google.com/o/oauth2/token, {"headers":{},"method":"POST","body":{"_overheadLength":543,"_valueLength":208,"_valuesToMeasure":[],"writable":false,"readable":true,"dataSize":0,"maxDataSize":2097152,"pauseStreams":true,"_released":true,"_streams":[],"_currentStream":null,"_insideLoop":false,"_pendingNext":false,"_boundary":"--------------------------631685575186918488254814","_events":{},"_eventsCount":1}}): FetchError: request to https://accounts.google.com/o/oauth2/token failed, reason: connect ETIMEDOUT 64.233.187.84:443
+[debug] [2024-06-20T09:49:56.972Z] Token Fetch Error: FirebaseError: Failed to make request to https://accounts.google.com/o/oauth2/token
+    at RetryOperation._fn (C:\Users\22739\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:259:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[debug] [2024-06-20T09:49:56.976Z] >>> [apiv2][query] POST https://auth.firebase.tools/attest [none]
+[debug] [2024-06-20T09:49:56.976Z] >>> [apiv2][body] POST https://auth.firebase.tools/attest {"session_id":"b281ecf0-d1cb-4754-8e48-ab6821766951"}
+[debug] [2024-06-20T09:49:58.105Z] <<< [apiv2][status] POST https://auth.firebase.tools/attest 200
+[debug] [2024-06-20T09:49:58.105Z] <<< [apiv2][body] POST https://auth.firebase.tools/attest {"token":"wei04H1wYBFI_U-EEjirWvweH0H3eSkAnlYLLbZW2gI"}
+[info] 
+[info] To sign in to the Firebase CLI:
+[info] 
+[info] 1. Take note of your session ID:
+[info] 
+[info]    B281E
+[info] 
+[info] 2. Visit the URL below on any device and follow the instructions to get your code:
+[info] 
+[info]    https://auth.firebase.tools/login?code_challenge=oPBwkdecHN-DjBcmk5L29luJ63EGLB_4v1leDdyfTqA&session=b281ecf0-d1cb-4754-8e48-ab6821766951&attest=wei04H1wYBFI_U-EEjirWvweH0H3eSkAnlYLLbZW2gI
+[info] 
+[info] 3. Paste or enter the authorization code below once you have it:
+[info] 
+[debug] [2024-06-20T09:50:21.790Z] ----------------------------------------------------------------------
+[debug] [2024-06-20T09:50:21.792Z] Command:       D:\nodejs\node.exe C:\Users\22739\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2024-06-20T09:50:21.792Z] CLI Version:   13.11.2
+[debug] [2024-06-20T09:50:21.792Z] Platform:      win32
+[debug] [2024-06-20T09:50:21.792Z] Node Version:  v20.13.1
+[debug] [2024-06-20T09:50:21.792Z] Time:          Thu Jun 20 2024 17:50:21 GMT+0800 (中国标准时间)
+[debug] [2024-06-20T09:50:21.793Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-06-20T09:50:21.794Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[debug] [2024-06-20T09:50:22.985Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2024-06-20T09:50:22.985Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=893485688&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2024-06-20T09:50:39.160Z] >>> [apiv2][query] POST https://accounts.google.com/o/oauth2/token [none]
+[debug] [2024-06-20T09:50:39.161Z] >>> [apiv2][body] POST https://accounts.google.com/o/oauth2/token [omitted]
+[debug] [2024-06-20T09:51:00.207Z] *** [apiv2] error from fetch(https://accounts.google.com/o/oauth2/token, {"headers":{},"method":"POST","body":{"_overheadLength":543,"_valueLength":208,"_valuesToMeasure":[],"writable":false,"readable":true,"dataSize":0,"maxDataSize":2097152,"pauseStreams":true,"_released":true,"_streams":[],"_currentStream":null,"_insideLoop":false,"_pendingNext":false,"_boundary":"--------------------------149825927469506665955761","_events":{},"_eventsCount":1}}): FetchError: request to https://accounts.google.com/o/oauth2/token failed, reason: connect ETIMEDOUT 64.233.187.84:443
+[debug] [2024-06-20T09:51:00.207Z] Token Fetch Error: FirebaseError: Failed to make request to https://accounts.google.com/o/oauth2/token
+    at RetryOperation._fn (C:\Users\22739\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:259:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[debug] [2024-06-20T09:51:00.211Z] >>> [apiv2][query] POST https://auth.firebase.tools/attest [none]
+[debug] [2024-06-20T09:51:00.211Z] >>> [apiv2][body] POST https://auth.firebase.tools/attest {"session_id":"cadedb52-93eb-4128-bb7c-e76ca730ae02"}
+[debug] [2024-06-20T09:51:01.051Z] <<< [apiv2][status] POST https://auth.firebase.tools/attest 200
+[debug] [2024-06-20T09:51:01.051Z] <<< [apiv2][body] POST https://auth.firebase.tools/attest {"token":"tXFh05Cxh0GE3NxK7P57CdmkSvKp_ifyM312Jtjuybk"}
+[info] 
+[info] To sign in to the Firebase CLI:
+[info] 
+[info] 1. Take note of your session ID:
+[info] 
+[info]    CADED
+[info] 
+[info] 2. Visit the URL below on any device and follow the instructions to get your code:
+[info] 
+[info]    https://auth.firebase.tools/login?code_challenge=k-i9J_hceS8A4hGrK2vv6zsR_ifCGcRr2ab60lFXvk8&session=cadedb52-93eb-4128-bb7c-e76ca730ae02&attest=tXFh05Cxh0GE3NxK7P57CdmkSvKp_ifyM312Jtjuybk
+[info] 
+[info] 3. Paste or enter the authorization code below once you have it:
+[info] 
+[debug] [2024-06-20T09:57:44.089Z] ----------------------------------------------------------------------
+[debug] [2024-06-20T09:57:44.091Z] Command:       D:\nodejs\node.exe C:\Users\22739\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2024-06-20T09:57:44.091Z] CLI Version:   13.11.2
+[debug] [2024-06-20T09:57:44.092Z] Platform:      win32
+[debug] [2024-06-20T09:57:44.092Z] Node Version:  v20.13.1
+[debug] [2024-06-20T09:57:44.092Z] Time:          Thu Jun 20 2024 17:57:44 GMT+0800 (中国标准时间)
+[debug] [2024-06-20T09:57:44.092Z] ----------------------------------------------------------------------
+[debug] 
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=475309987&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2024-06-20T09:57:54.395Z] >>> [apiv2][query] POST https://accounts.google.com/o/oauth2/token [none]
+[debug] [2024-06-20T09:57:54.396Z] >>> [apiv2][body] POST https://accounts.google.com/o/oauth2/token [omitted]
+[debug] [2024-06-20T09:58:11.924Z] >>> [apiv2][query] POST https://auth.firebase.tools/attest [none]
+[debug] [2024-06-20T09:58:11.924Z] >>> [apiv2][body] POST https://auth.firebase.tools/attest {"session_id":"1a472425-a3d2-4b70-aece-87556e16d910"}
+[debug] [2024-06-20T09:58:12.608Z] <<< [apiv2][status] POST https://auth.firebase.tools/attest 200
+[debug] [2024-06-20T09:58:12.608Z] <<< [apiv2][body] POST https://auth.firebase.tools/attest {"token":"N37YCXeShfJdqGr9arN5SuDzpBaW7qUY6D8svjSiw9g"}
+[info] 
+[info] To sign in to the Firebase CLI:
+[info] 
+[info] 1. Take note of your session ID:
+[info] 
+[info]    1A472
+[info] 
+[info] 2. Visit the URL below on any device and follow the instructions to get your code:
+[info] 
+[info]    https://auth.firebase.tools/login?code_challenge=HLy2gFkq4Gl9xmQFId1thEAYfZqauoHWUJZbYITJV9I&session=1a472425-a3d2-4b70-aece-87556e16d910&attest=N37YCXeShfJdqGr9arN5SuDzpBaW7qUY6D8svjSiw9g
+[info] 
+[info] 3. Paste or enter the authorization code below once you have it:
+[info] 
+[debug] [2024-06-20T09:58:15.457Z] *** [apiv2] error from fetch(https://accounts.google.com/o/oauth2/token, {"headers":{},"method":"POST","body":{"_overheadLength":543,"_valueLength":208,"_valuesToMeasure":[],"writable":false,"readable":true,"dataSize":0,"maxDataSize":2097152,"pauseStreams":true,"_released":true,"_streams":[],"_currentStream":null,"_insideLoop":false,"_pendingNext":false,"_boundary":"--------------------------155744293162178100265999","_events":{},"_eventsCount":1}}): FetchError: request to https://accounts.google.com/o/oauth2/token failed, reason: connect ETIMEDOUT 59.24.3.174:443
+[debug] [2024-06-20T09:58:15.457Z] Token Fetch Error: FirebaseError: Failed to make request to https://accounts.google.com/o/oauth2/token
+    at RetryOperation._fn (C:\Users\22739\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:259:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
